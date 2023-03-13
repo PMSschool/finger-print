@@ -95,6 +95,7 @@ header .container .link{
 @media (max-width:767px){
   header .container .link i{
     padding:15px;
+    font-size: 20px;
   }
 }
 header .container .link nav ul{
@@ -127,7 +128,7 @@ header .container .link nav ul li a:hover{
 }
 header .container .link nav ul li .active{
   background-color: var(--first-color);
-  padding: 0px 15px;
+  padding: 2px 15px;
   border-radius: 20px;
   color: white;
   transition:0.3s
