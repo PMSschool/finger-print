@@ -311,6 +311,7 @@ header .container .link nav ul li .active:hover{
   border-radius: 10px;
   box-shadow: 0 0 28px -17px;
   line-height: 8px;
+  height:260px;
 }
 .offers .container .card img{
   width: 150px;
@@ -491,8 +492,22 @@ header .container .link nav ul li .active:hover{
 .container .see-more{
   text-align: center;
   background-color: var(--first-color);
-  padding: 15px;
+  padding: 20px;
   border-radius: 7px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.container .see-more i {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  color: black;
+}
+@media (max-width:767px){
+  .container .see-more i{
+    transform: rotatez(90deg);
+  }
 }
 /* //---- // */
 
